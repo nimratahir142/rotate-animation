@@ -1,0 +1,19 @@
+.spiner {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    animation-name: ani;
+    border-radius: 50%;
+    border: 25px solid white;
+    border-top: 20px solid indigo;
+    animation: ani 2.5s linear infinite;
+}
+
+@keyframes ani {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
